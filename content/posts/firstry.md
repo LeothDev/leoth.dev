@@ -1,6 +1,6 @@
 +++
 date = '2025-09-07T21:52:11+02:00'
-draft = true
+draft = false
 title = 'Firstry'
 +++
 ## Introduction
