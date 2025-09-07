@@ -1,7 +1,12 @@
 baseURL = 'https://leoth.dev/'
 languageCode = 'en-us'
 title = 'LeothDev'
-theme="rose-pine"
+theme = "rose-pine"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.80.0"
 
 [caches]
   [caches.images]
@@ -13,3 +18,27 @@ theme="rose-pine"
     languageName = 'English'
     weight = 10
 
+[menu]
+  [[menu.header]]
+    name = "About"
+    url = "about"
+
+  [[menu.header]]
+    name = "Posts"
+    url = "posts"
+
+[params]
+  author = "Leoth"
+  description = "My devlog and projects"
+  hostname = "leoth.dev"
+  mainSections = ["posts"]
+
+  [[params.social]]
+    key = "github"
+    name = "GitHub"
+    url = "https://github.com/LeothDev"
+
+  [[params.social]]
+    key = "youtube"
+    name = "YouTube"
+    url = "https://www.youtube.com/@LeothDev"
