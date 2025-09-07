@@ -2,38 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LeothDev</title>
-    <link>http://localhost:1313/</link>
+    <link>https://leoth.dev/</link>
     <description>Recent content on LeothDev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 01:28:14 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test2</title>
-      <link>http://localhost:1313/posts/test2/</link>
-      <pubDate>Mon, 08 Sep 2025 01:28:14 +0200</pubDate>
-      <guid>http://localhost:1313/posts/test2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Test1</title>
-      <link>http://localhost:1313/posts/test1/</link>
-      <pubDate>Mon, 08 Sep 2025 01:28:09 +0200</pubDate>
-      <guid>http://localhost:1313/posts/test1/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Mon, 08 Sep 2025 00:06:56 +0200</lastBuildDate>
+    <atom:link href="https://leoth.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://leoth.dev/about/</link>
       <pubDate>Mon, 08 Sep 2025 00:06:56 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://leoth.dev/about/</guid>
       <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;who-am-i&#34;&gt;&lt;em&gt;Who Am I?&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t know yet&lt;/p&gt;&#xA;&lt;h2 id=&#34;current-focus&#34;&gt;&lt;em&gt;Current Focus&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Surviving&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-dev-environment&#34;&gt;&lt;em&gt;My Dev Environment&lt;/em&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;EndeavourOS&lt;/em&gt; → [&lt;a href=&#34;https://opencollective.com/endeavouros&#34;&gt;OpenCollective&lt;/a&gt;] | with Hyprland&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Helix Editor&lt;/em&gt; → [&lt;a href=&#34;https://opencollective.com/helix-editor&#34;&gt;OpenCollective&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;&lt;span style=&#34;color: #c4a7e7;&#34;&gt;Rosé Pine&lt;/span&gt;&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Firstry</title>
-      <link>http://localhost:1313/firstry/</link>
+      <link>https://leoth.dev/firstry/</link>
       <pubDate>Sun, 07 Sep 2025 21:52:11 +0200</pubDate>
-      <guid>http://localhost:1313/firstry/</guid>
+      <guid>https://leoth.dev/firstry/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;italic&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
     </item>
   </channel>
