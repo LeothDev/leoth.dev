@@ -25,7 +25,7 @@ theme = "rose-pine"
 
   [[menu.header]]
     name = "Posts"
-    url = "posts"
+    url = "content/posts"
 
 [params]
   author = "Leoth"
