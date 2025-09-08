@@ -1,5 +1,7 @@
 User-agent: *
 
+Disallow: /werewolf.sh/
+
 Disallow: /
 
 Disallow: /posts/

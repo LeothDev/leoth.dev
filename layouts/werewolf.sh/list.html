@@ -1,0 +1,73 @@
+{{ define "main" }}
+<div class="werewolf-page">
+  <header class="project-header">
+    <h1>{{ .Title }}</h1>
+    <p class="project-description">{{ .Params.description }}</p>
+  </header>
+  <div class="project-content">
+    {{ .Content }}
+  </div>
+</div>
+<style>
+  .werewolf-page {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.project-header {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+
+.project-header h1 {
+  font-family: Courier New;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 2.5rem;
+  color: #9ccfd8;
+  margin-bottom: 0.5rem;
+}
+
+.project-header {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.project-description {
+  color: #908caa;
+  font-size: 1.1rem;
+}
+
+.project-content h2 {
+  color: #e0def4;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.4rem;
+}
+
+.project-content h3 {
+  color: #9ccfd8;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.project-content strong {
+  color: #f6c177;
+}
+
+.project-content em {
+  color: #eb6f92;
+  font-style: italic;
+}
+
+.project-content p {
+  margin-bottom: 1rem;
+  color: #e0def4;
+}
+
+.project-content hr {
+  border: none;
+  border-top: 1px solid #524f67;
+  margin: 1rem 0;
+}
+</style>
+{{ end }}

@@ -29,6 +29,10 @@ enableRobotsTXT = true
     name = "Posts"
     url = "posts/"
 
+  [[menu.header]]
+    name = "werewolf.sh"
+    url = "werewolf.sh/"
+
 [params]
   author = "Leoth"
   description = "My devlog and projects"
