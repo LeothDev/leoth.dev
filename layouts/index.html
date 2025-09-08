@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="homepage">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</div>
+<style>
+  .homepage {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.homepage h2 {
+  color: #eb6f92;
+  margin-top: 2rem;
+}
+
+.homepage h3 {
+  color: #e0def4;
+  margin-top: 1.5rem;
+}
+</style>
+{{ end }}

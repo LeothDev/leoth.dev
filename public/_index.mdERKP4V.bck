@@ -1,0 +1,16 @@
++++
+title = 'Learning by Building'
+subtitle = 'CS&AI student taking time to learn in an AI-accelerated world'
+description = "Learning by building"
+date = '2025-09-08T14:06:34+02:00'
+draft = false
+
+current_project = "werewolf.sh"
+project_status = "In Development"
+learning_focus = "Go Programming"
++++
+
+--- 
+Currently building **werewolf.sh** - a terminal-based multiplayer game to learn and Go and game development fundamentals.
+
+Taking it slow in an AI-accelerated world, focusing on understanding rather than speed.
