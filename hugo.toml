@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'LeothDev'
 theme = "rose-pine"
 
+enableRobotsTXT = true
+
 [module]
   [module.hugoVersion]
     extended = true
@@ -25,7 +27,7 @@ theme = "rose-pine"
 
   [[menu.header]]
     name = "Posts"
-    url = "content/posts"
+    url = "posts/"
 
 [params]
   author = "Leoth"

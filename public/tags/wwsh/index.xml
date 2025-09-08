@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wwsh on LeothDev</title>
+    <link>http://localhost:1313/tags/wwsh/</link>
+    <description>Recent content in Wwsh on LeothDev</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Sep 2025 12:37:53 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wwsh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Werewolf.sh1</title>
+      <link>http://localhost:1313/posts/werewolf.sh1/</link>
+      <pubDate>Mon, 08 Sep 2025 12:37:53 +0200</pubDate>
+      <guid>http://localhost:1313/posts/werewolf.sh1/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

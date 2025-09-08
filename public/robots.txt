@@ -1,0 +1,20 @@
+User-agent: *
+
+Disallow: /tags/introduction/
+
+Disallow: /
+
+Disallow: /tags/meta/
+
+Disallow: /posts/firstpost/
+
+Disallow: /posts/
+
+Disallow: /tags/
+
+Disallow: /about/
+
+Disallow: /firstry/
+
+Disallow: /categories/
+

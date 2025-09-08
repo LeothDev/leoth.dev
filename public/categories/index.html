@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>
-Categories | Leoth
-</title>
+        LeothDev
+        </title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta name="generator" content="Hugo 0.148.1">
 
 
-<link rel="canonical" href="https://leoth.dev/categories/" >
-  <link href="https://leoth.dev/categories/index.xml" rel="alternate" type="application/rss+xml" title="LeothDev" >
-  <link href="https://leoth.dev/categories/index.xml" rel="feed" type="application/rss+xml" title="LeothDev" >
+<link rel="canonical" href="http://localhost:1313/categories/" >
+  <link href="http://localhost:1313/categories/index.xml" rel="alternate" type="application/rss+xml" title="LeothDev" >
+  <link href="http://localhost:1313/categories/index.xml" rel="feed" type="application/rss+xml" title="LeothDev" >
 <link href="/sass/main.min.34f7653088f81a749fb74b6bb84dc7d287608a42ff3538be4154b7ba6b28d41a.css" rel="stylesheet">
 </head>
 
@@ -21,7 +21,7 @@ Categories | Leoth
     <div class="flexWrapper">
         <header class="header">
     <div class="wrapper">
-        <a href="https://leoth.dev/">
+        <a href="http://localhost:1313/">
             <span class="terminal">@leoth.dev ~ $</span>
             <span class="cursor"></span>
         </a>
@@ -43,7 +43,7 @@ Categories | Leoth
                      
                       
                       
-                        <a href="/content/posts"  title="" >
+                        <a href="/posts/"  title="" >
                             ~/Posts</a>
                     </li>
                     
@@ -62,28 +62,113 @@ Categories | Leoth
         <div class="content">
             <main class="main">
                 
-
-<div>
-    <div class="listHeader">
-        <h1>~/Categories</h1>
-    </div>
-
-    
-
-    <div>
-        
-        
-        
-        
-    </div>
-    <div class="pagination">
-      <div class="wrapper">
-        
-        
-      </div>
-    </div>
+<div class="posts-list">
+  <h1>Categories</h1>
+  
+  
+  
+  
 </div>
+<style>
+  .post-card {
+  border: 1px solid #524f67;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(49, 116, 143, 0.05);
+  transition: all 0.2s;
+  cursor: pointer;
+}
 
+.post-card:hover {
+  border-color: #eb6f92;
+  background: rgba(49, 116, 143, 0.1);
+  transform: translateY(-2px);
+  color: #eb6f92;
+}
+
+.pinned-post {
+  border: 1px solid #eb6f92;
+  background: rgba(235, 111, 146, 0.05);
+  margin-bottom: 2rem;
+}
+
+.pinned-post:hover {
+  background: rgba(235, 111, 146, 0.1);
+}
+
+.pinned-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #eb6f92;
+  font-size: 0.08rem;
+  font-weight: 500;
+}
+
+.pin-icon {
+  font-size: 0.9rem;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.post-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.post-card h3 a {
+  color: #e0def4;
+  text-decoration: none;
+}
+
+.post-date {
+  color: #908caa;
+  font-size: 0.85rem;
+}
+
+.post-excerpt {
+  color: #908caa;
+  margin: 0 0 0.75rem 0;
+  font-size: 0.9rem;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.post-tags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: rgba(235, 111, 146, 0.2);
+  color: #eb6f92;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+}
+
+.post-stats {
+  display: flex;
+  gap: 1rem;
+  color: #6e6a86;
+}
+
+.progress {
+  color: #f6c177;
+}
+</style>
 
             </main>
         </div>
