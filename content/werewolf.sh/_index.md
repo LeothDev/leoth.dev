@@ -11,10 +11,7 @@ repo_url = "https://github.com/LeothDev/werewolf.sh"
 +++
 
 ## Why This Game?
-
-My inner child is eager to live again those countless nights,  
-playing WereWolf in random Telegram groups.  
-There are mobile apps now, sure, but I want something more...  
+My inner child is eager to live again those countless nights, playing WereWolf in random Telegram groups. There are mobile apps now, sure, but I want something more...  
 ...terminal-native. I need something simple and aesthetic.  
 Something where the social aspect is the main goal.
 

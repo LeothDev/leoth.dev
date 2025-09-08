@@ -17,3 +17,5 @@ Surviving
   * *Helix Editor* → [[OpenCollective](https://opencollective.com/helix-editor)]
   * *{{< color "#c4a7e7" >}}Rosé Pine{{< /color >}}*
 
+## Let's Connect!
+Find me on [{{< underline >}}GitHub{{< /underline >}}](https://github.com/LeothDev)

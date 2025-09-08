@@ -48,3 +48,8 @@ enableRobotsTXT = true
     key = "youtube"
     name = "YouTube"
     url = "https://www.youtube.com/@LeothDev"
+
+  [[params.social]]
+    key = "mastodon"
+    name = "mastodon"
+    url = "https://mastodon.social/@leothdev"
