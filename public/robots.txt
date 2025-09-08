@@ -1,14 +1,14 @@
 User-agent: *
 
-Disallow: /tags/introduction/
-
 Disallow: /
+
+Disallow: /posts/
+
+Disallow: /tags/introduction/
 
 Disallow: /tags/meta/
 
 Disallow: /posts/firstpost/
-
-Disallow: /posts/
 
 Disallow: /tags/
 
