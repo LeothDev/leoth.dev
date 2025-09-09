@@ -4,10 +4,43 @@
   {{ .Content }}
 </div>
 <style>
-  .homepage {
+  .homepage h1 {
+  position: relative;
+  text-align: center;
+}
+
+  .homepage h1::after {
+  content: "// nice to meet you";
+  font-size: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 100;
+  margin-left: 1rem;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  transition-delay: 1s;
+}
+
+  .homepage h1:hover::after {
+  opacity: 1;
+}
+
+.homepage h1:not(:hover)::after {
+  transition-delay: 0s;
+}
+
+.homepage {
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
+}
+
+.homepage em:hover::after {
+  content: "(25% done)";
+  color: #6e6a86;
+  font-size: 0.9em;
 }
 
 .homepage h2 {
@@ -18,6 +51,26 @@
 .homepage h3 {
   color: #e0def4;
   margin-top: 1.5rem;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@media (max-width: 768px) {
+  .homepage:active::before {
+    content: "Wake up, developer...";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #9ccfd8;
+    font-family: monospace;
+    font-size: 0.8rem;
+    pointer-events: none;
+    z-index: 1000;
+  }
 }
 </style>
 {{ end }}

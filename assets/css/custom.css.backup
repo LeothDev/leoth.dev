@@ -1,0 +1,29 @@
+.header .cursor {
+  font-family: Courier New;
+  display: inline-block;
+  width: 10px;
+  height: 1.5rem;
+  background: #c4a7e7;
+  animation: cursor-blink 1s infinite;
+}
+
+.header {
+  overflow: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #e0def4;
+}
+
+.typing-text {
+  font-family: Courier New;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  color: #c4a7e7;
+}
+
+@keyframes cursor-blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}

@@ -1,0 +1,71 @@
+<header class="header">
+    <div class="wrapper">
+        <a href="{{ $.Site.BaseURL }}">
+            <span class="terminal">{{ .Site.Params.user }}@{{ .Site.Params.hostname }} ~ $</span>
+            <span class="typing-text"></span>
+            <span class="cursor"></span>
+        </a>
+        <div class="menu">
+            <input type="checkbox" class="menu-toggle" id="menu-toggle" />
+            <nav class="menu-items">
+                <ul>
+                    {{ $current := . }}
+                    {{ range .Site.Menus.header }}
+                    <li>
+                     {{ $active := or ($current.IsMenuCurrent "header" .) ($current.HasMenuCurrent "header" .) }}
+                      {{ $active = or $active (eq .Name $current.Title) }}
+                      {{ $active = or $active (and (eq .Name "blog") (eq $current.Section .URL)) }}
+                        <a href="{{ .URL | relURL }}" {{ if $active }}class="active"{{ end }} title="{{ .Title }}" >
+                            ~/{{- .Name -}}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+            <label for="menu-toggle" class="menu-trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </label>
+        </div>
+    </div>
+</header>
+
+<script>
+const commands = [
+    "rm -rf /",
+    "make werewolf.sh",
+    "go build ./...",
+    ""
+];
+
+let commandIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+function typeWriter() {
+    const typingElement = document.querySelector('.typing-text');
+    const currentCommand = commands[commandIndex];
+    
+    if (isDeleting) {
+        typingElement.textContent = currentCommand.substring(0, charIndex - 1);
+        charIndex--;
+    } else {
+        typingElement.textContent = currentCommand.substring(0, charIndex + 1);
+        charIndex++;
+    }
+    
+    if (!isDeleting && charIndex === currentCommand.length) {
+        setTimeout(() => isDeleting = true, 2500);
+    } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        commandIndex = (commandIndex + 1) % commands.length;
+    }
+    
+    const speed = isDeleting ? 50 : 50;
+    setTimeout(typeWriter, speed);
+}
+
+setTimeout(typeWriter, 2000);
+</script>
