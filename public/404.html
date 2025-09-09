@@ -68,8 +68,83 @@
         <div class="content">
             <main class="main">
                 
-<h1>NOT FOUND</h1>
-<p>You just hit a route that doesn&#39;t exist...</p>
+<div class="error-page">
+  <h1>404 - Route Not Found</h1>
+  <hr>
+  <p>You just hit a route that doesn't exist...</p>
+  <p>But hey, I'm glad you're exploring!</p>
+  <div class="navigation-help">
+    <p>Try these commands:</p>
+    <div class="command-options">
+      <a href="/" class="terminal-command">cd ~/</a>
+      <a href="/about" class="terminal-command">cat about.md</a>
+      <a href="/posts" class="terminal-command">ls posts/</a>
+      <a href="/werewolf.sh" class="terminal-command">./werewolf.sh</a>
+    </div>
+  </div>
+</div>
+<style>
+  .error-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: 'Courier New', monospace;
+}
+
+.terminal-output {
+  background: rgba(49, 116, 143, 0.1);
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  border-left: 3px solid #eb6f92;
+}
+
+.command-line {
+  margin-bottom: 0.5rem;
+}
+
+.prompt {
+  color: #9ccfd8;
+}
+
+.command {
+  color: #e0def4;
+}
+
+.error-message {
+  color: #eb6f92;
+  font-style: italic;
+}
+
+.command-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.terminal-command {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(49, 116, 143, 0.1);
+  border: 1px solid #524f67;
+  border-radius: 4px;
+  color: #f6c177;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+  transition: all 0.2s;
+}
+
+.terminal-command:hover {
+  background: rgba(49, 116, 143, 0.2);
+  border-color: #eb6f92;
+  color: #eb6f92;
+  transform: translateY(-1px);
+}
+
+.terminal-command:active {
+  transform: translateY(0);
+}
+</style>
 
             </main>
         </div>
