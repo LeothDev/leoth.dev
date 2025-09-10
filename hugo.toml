@@ -22,16 +22,24 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.header]]
-    name = "About"
+    name = "about"
     url = "about"
 
   [[menu.header]]
-    name = "Posts"
+    name = "posts"
     url = "posts/"
+
+  [[menu.header]]
+    name = "projects"
+    url = "projects/"
 
   [[menu.header]]
     name = "werewolf.sh"
     url = "werewolf.sh/"
+
+  [[menu.header]]
+    name = "boomarks"
+    url = "bookmarks/"
 
 [params]
   author = "Leoth"

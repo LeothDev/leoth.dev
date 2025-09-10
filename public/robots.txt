@@ -24,5 +24,11 @@ Disallow: /about/
 
 Disallow: /firstry/
 
+Disallow: /projects/gru-authorship/
+
+Disallow: /projects/wasa-text/
+
 Disallow: /categories/
+
+Disallow: /projects/
 
